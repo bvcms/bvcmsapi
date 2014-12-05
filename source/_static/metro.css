@@ -1,0 +1,317 @@
+.metro .black {
+  background-color: #000000 !important;
+}
+    .metro .black:hover {
+      background-color: #000000 !important;
+    }
+.metro .white {
+  background-color: #ffffff !important;
+}
+    .metro .white:hover {
+      background-color: #ffffff !important;
+    }
+.metro .lime {
+  background-color: #a4c400 !important;
+}
+    .metro .lime:hover {
+      background-color: #a4c400 !important;
+    }
+.metro .green {
+  background-color: #60a917 !important;
+}
+    .metro .green:hover {
+      background-color: #60a917 !important;
+    }
+.metro .emerald {
+  background-color: #008a00 !important;
+}
+    .metro .emerald:hover {
+      background-color: #008a00 !important;
+    }
+.metro .teal {
+  background-color: #00aba9 !important;
+}
+    .metro .teal:hover {
+      background-color: #00aba9 !important;
+    }
+.metro .cyan {
+  background-color: #1ba1e2 !important;
+}
+    .metro .cyan:hover {
+      background-color: #1ba1e2 !important;
+    }
+.metro .cobalt {
+  background-color: #0050ef !important;
+}
+    .metro .cobalt:hover {
+      background-color: #0050ef !important;
+    }
+.metro .indigo {
+  background-color: #6a00ff !important;
+}
+    .metro .indigo:hover {
+      background-color: #6a00ff !important;
+    }
+
+.metro .violet {
+  background-color: #aa00ff !important;
+}
+    .metro .violet:hover {
+      background-color: #aa00ff !important;
+    }
+.metro .pink {
+  background-color: #dc4fad !important;
+}
+    .metro .pink:hover {
+      background-color: #dc4fad !important;
+    }
+.metro .magenta {
+  background-color: #d80073 !important;
+}
+    .metro .magenta:hover {
+      background-color: #d80073 !important;
+    }
+.metro .crimson {
+  background-color: #a20025 !important;
+}
+    .metro .crimson:hover {
+      background-color: #a20025 !important;
+    }
+.metro .red {
+  background-color: #e51400 !important;
+}
+    .metro .red:hover {
+      background-color: #e51400 !important;
+    }
+.metro .orange {
+  background-color: #fa6800 !important;
+}
+    .metro .orange:hover {
+      background-color: #fa6800 !important;
+    }
+.metro .amber {
+  background-color: #f0a30a !important;
+}
+    .metro .amber:hover {
+      background-color: #f0a30a !important;
+    }
+.metro .yellow {
+  background-color: #e3c800 !important;
+}
+    .metro .yellow:hover {
+      background-color: #e3c800 !important;
+    }
+.metro .brown {
+  background-color: #825a2c !important;
+}
+    .metro .brown:hover {
+      background-color: #825a2c !important;
+    }
+.metro .olive {
+  background-color: #6d8764 !important;
+}
+    .metro .olive:hover {
+      background-color: #6d8764 !important;
+    }
+.metro .steel {
+  background-color: #647687 !important;
+}
+    .metro .steel:hover {
+      background-color: #647687 !important;
+    }
+.metro .mauve {
+  background-color: #76608a !important;
+}
+    .metro .mauve:hover {
+      background-color: #76608a !important;
+    }
+.metro .taupe {
+  background-color: #87794e !important;
+}
+    .metro .taupe:hover {
+      background-color: #87794e !important;
+    }
+.metro .gray {
+  background-color: #555555 !important;
+}
+    .metro .gray:hover {
+      background-color: #555555 !important;
+    }
+.metro .dark {
+  background-color: #333333 !important;
+}
+    .metro .dark:hover {
+      background-color: #333333 !important;
+    }
+.metro .darker {
+  background-color: #222222 !important;
+}
+    .metro .darker:hover {
+      background-color: #222222 !important;
+    }
+.metro .transparent {
+  background-color: transparent !important;
+}
+    .metro .transparent:hover {
+      background-color: transparent !important;
+    }
+.metro .darkBrown {
+  background-color: #63362f !important;
+}
+    .metro .darkBrown:hover {
+      background-color: #63362f !important;
+    }
+.metro .darkCrimson {
+  background-color: #640024 !important;
+}
+    .metro .darkCrimson:hover {
+      background-color: #640024 !important;
+    }
+.metro .darkMagenta {
+  background-color: #81003c !important;
+}
+    .metro .darkMagenta:hover {
+      background-color: #81003c !important;
+    }
+.metro .darkIndigo {
+  background-color: #4b0096 !important;
+}
+    .metro .darkIndigo:hover {
+      background-color: #4b0096 !important;
+    }
+.metro .darkCyan {
+  background-color: #1b6eae !important;
+}
+    .metro .darkCyan:hover {
+      background-color: #1b6eae !important;
+    }
+.metro .darkCobalt {
+  background-color: #00356a !important;
+}
+    .metro .darkCobalt:hover {
+      background-color: #00356a !important;
+    }
+.metro .darkTeal {
+  background-color: #004050 !important;
+}
+    .metro .darkTeal:hover {
+      background-color: #004050 !important;
+    }
+.metro .darkEmerald {
+  background-color: #003e00 !important;
+}
+    .metro .darkEmerald:hover {
+      background-color: #003e00 !important;
+    }
+.metro .darkGreen {
+  background-color: #128023 !important;
+}
+    .metro .darkGreen:hover {
+      background-color: #128023 !important;
+    }
+.metro .darkOrange {
+  background-color: #bf5a15 !important;
+}
+    .metro .darkOrange:hover {
+      background-color: #bf5a15 !important;
+    }
+.metro .darkRed {
+  background-color: #9a1616 !important;
+}
+    .metro .darkRed:hover {
+      background-color: #9a1616 !important;
+    }
+.metro .darkPink {
+  background-color: #9a165a !important;
+}
+    .metro .darkPink:hover {
+      background-color: #9a165a !important;
+    }
+.metro .darkViolet {
+  background-color: #57169a !important;
+}
+    .metro .darkViolet:hover {
+      background-color: #57169a !important;
+    }
+.metro .darkBlue {
+  background-color: #16499a !important;
+}
+    .metro .darkBlue:hover {
+      background-color: #16499a !important;
+    }
+.metro .lightBlue {
+  background-color: #4390df !important;
+}
+    .metro .lightBlue:hover {
+      background-color: #4390df !important;
+    }
+.metro .lightRed {
+  background-color: #ff2d19 !important;
+}
+    .metro .lightRed:hover {
+      background-color: #ff2d19 !important;
+    }
+.metro .lightGreen {
+  background-color: #7ad61d !important;
+}
+    .metro .lightGreen:hover {
+      background-color: #7ad61d !important;
+    }
+.metro .lighterBlue {
+  background-color: #00ccff !important;
+}
+.metro .lightTeal {
+  background-color: #45fffd !important;
+}
+   .metro .lightTeal:hover {
+      background-color: #45fffd !important;
+    }
+.metro .lightOlive {
+  background-color: #78aa1c !important;
+}
+    .metro .lightOlive:hover {
+      background-color: #78aa1c !important;
+    }
+.metro .lightOrange {
+  background-color: #c29008 !important;
+}
+    .metro .lightOrange:hover {
+      background-color: #c29008 !important;
+    }
+.metro .lightPink {
+  background-color: #f472d0 !important;
+}
+    .metro .lightPink:hover {
+      background-color: #f472d0 !important;
+    }
+.metro .grayDark {
+  background-color: #333333 !important;
+}
+    .metro .grayDark:hover {
+      background-color: #333333 !important;
+    }
+.metro .grayDarker {
+  background-color: #222222 !important;
+}
+    .metro .grayDarker:hover {
+      background-color: #222222 !important;
+    }
+.metro .grayLight {
+  background-color: #999999 !important;
+}
+    .metro .grayLight:hover {
+      background-color: #999999 !important;
+    }
+.metro .grayLighter {
+  background-color: #eeeeee !important;
+}
+    .metro .grayLighter:hover {
+      background-color: #eeeeee !important;
+    }
+.metro .blue {
+  background-color: #00aff0 !important;
+}
+    .metro .blue:hover {
+      background-color: #00aff0 !important;
+    }
+

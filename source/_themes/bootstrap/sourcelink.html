@@ -1,0 +1,8 @@
+{%- if show_source and has_source and sourcename %}
+<div id="sourcelink">
+  <a href="{{ pathto('_sources/' + sourcename, true)|e }}"
+     rel="nofollow">{{ _('Source') }}</a>
+  <a href="{{ pathto('ForDocumenters/index.html', true)|e }}"
+	  rel="nofollow"><span style='color: #FEFEFE'>For Documenters</span></a>
+</div>
+{%- endif %}

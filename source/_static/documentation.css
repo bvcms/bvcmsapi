@@ -1,0 +1,243 @@
+tt.literal {
+	padding: 2px 4px;
+	border: 1px solid #f2f2f2;
+	font-family: consolas,sans,monospace;
+	white-space: nowrap;
+	color: #111;
+}
+cite {
+    padding: 1px 2px;
+    border: 1px solid #ddd;
+    background-color: ##c7254e;
+    font-family: inherit;
+    white-space: nowrap;
+    color: #c7254e;
+}
+
+div.admonition {
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 2px solid #eee;
+    background-color: #f4f8fa;
+    border-color: #5bde80;
+}
+
+    div.admonition p.admonition-title {
+        font-size: 18px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: normal;
+        margin-top: 0;
+        margin-bottom: 5px;
+        color: #66806c;
+    }
+
+div.admonition.note {
+    background-color: #f4f8fa;
+    border-color: #5bc0de;
+}
+
+    div.admonition.note p.admonition-title {
+        color: #5bc0de;
+    }
+    div.admonition.note cite,
+    div.admonition.note tt {
+        background-color: #e2edf2;
+        border: 1px solid #bfd7e2;
+        padding: 2px;
+        font-family: inherit;
+    }
+
+div.admonition.tip {
+    background-color: #f5fdf2;
+    border-color: #3c763d;
+}
+    div.admonition.tip p.admonition-title {
+        color: #3c763d;
+    }
+
+    div.admonition.tip cite,
+    div.admonition.tip tt {
+        background-color: #e4fadc;
+        border: 1px solid #c2f3b0;
+    }
+
+div.admonition.seealso {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #fafafa;
+    border-left: 1px solid  #3c763d;
+}
+    div.admonition.seealso p.admonition-title {
+        color: #3c763d;
+        margin: 0;
+        font-size: 15px;
+        display: inline-block;
+    }
+    div.admonition.seealso p {
+        display: inline-block;
+        margin: 0;
+    }
+
+div.admonition.warning {
+    background-color: #fcf8f2;
+    border-color: #f0ad4e;
+}
+
+    div.admonition.warning p.admonition-title {
+        color: #f0ad4e;
+    }
+
+div.admonition.caution {
+    background-color: #fcf8f2;
+    border-color: #E9E900;
+}
+
+    div.admonition.caution p.admonition-title {
+        color: #BDBD13;
+    }
+
+div.admonition.important {
+    background-color: #fdf7f7;
+    border-color: #d9534f;
+}
+
+    div.important p.admonition-title {
+        color: #d9534f;
+    }
+
+div.section {
+    margin-bottom: 1em;
+}
+
+    div.section > h1 {
+        font-size: 32px;
+    }
+
+    div.section > h2 {
+    font-size: 20px;
+	font-weight: bold;
+}
+
+div.section > h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+  #sidebar {
+    position: relative !important;
+    top: auto !important;
+  }
+}
+@media print {
+    #sidebar {
+        display: none !important;
+    }
+}
+
+.navbar {
+    margin-bottom: auto;
+}
+#sidebar > li > a {
+    padding: 3px;
+}
+body {
+  padding-top: 70px;
+}
+
+dl dd {
+    margin-left: 2em;
+}
+table.hlist td {
+    vertical-align: top;
+}
+img {
+    max-height: 200px;
+    max-width: 350px;
+}
+.container {
+    max-width: 800px;
+}
+.container-fluid {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#index-toc {
+    display: block;
+}
+#index-toc > div
+{
+	margin: 0 auto;
+	padding: 0;
+	max-width: 640px;
+}
+@media only screen and (max-width: 480px),
+only screen and (max-device-width: 480px) {
+    #index-toc > div {
+        float: left;
+	}
+}
+#index-toc > div > div {
+	float: left;
+}
+
+#index-toc .box {
+		margin: 5px;
+		font-size: 1.5em;
+		font-family: sans-serif;
+		display: table;
+		border: grey 1px solid;
+		float: left;
+		height: 100px;
+	}
+
+#index-toc .large {
+		width: 290px;
+}
+#index-toc .small {
+		width: 140px;
+}
+
+#index-toc .box p {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+}
+#index-toc .box p {
+    color: rgb(238, 238, 238);
+}
+
+dt {
+	font-weight: normal;
+	color: #888;
+	font-weight: bold;
+	font-size: 15px;
+}
+dt:target, .highlighted {
+	background-color: transparent;
+/*	background-color: rgba(255, 245, 0, 0.13);*/
+	background: url(redmark.gif) bottom left no-repeat
+}
+
+div.figure {
+    padding: 1em 0;
+    text-align: center;
+    display: table;
+}
+
+p.caption {
+    margin: 0;
+    font-style: italic;
+}
+.colors > div {
+	display: inline-block;
+	display: none;
+	width:10em;
+	height:3em;
+	color: white;
+	padding:5px;
+}
+
+
