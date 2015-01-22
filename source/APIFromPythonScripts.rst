@@ -65,6 +65,12 @@ Methods and Functions
     :param str body:           The message content of the email.
     :param str contentName:    The name of the special content holding the message body and subject
 
+.. py:function:: PeopleIds(savedQueryName)
+
+    Returns a list of PeopleIds from a query
+
+    :param str savedQueryName: The name of the saved query that will specify the recipients.
+
 .. py:function:: OrganizationIds(programId, divisionId)
 
     Returns a list of OrganizationIds in the respective program and division
