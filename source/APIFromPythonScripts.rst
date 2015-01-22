@@ -182,38 +182,13 @@ Fetch Extra Values
 The following functions will return extra values for a person
 
 .. py:function:: ExtraValueCode(peopleId, name)
-
-    Returns the code value as a string
-
-    :param int peopleId:       The peopleId of the person
-    :param str name:           The name of the Extra Value Field
-
 .. py:function:: ExtraValueText(peopleId, name)
-
-    Returns the text value as a string
-
-    :param int peopleId:       The peopleId of the person
-    :param str name:           The name of the Extra Value Field
-
 .. py:function:: ExtraValueInt(peopleId, name)
-
-    Returns the value as an integer
-
-    :param int peopleId:       The peopleId of the person
-    :param str name:           The name of the Extra Value Field
-
 .. py:function:: ExtraValueDate(peopleId, name)
-
-    Returns the value as an datetime
-
-    :param int peopleId:       The peopleId of the person
-    :param str name:           The name of the Extra Value Field
-
 .. py:function:: ExtraValueBit(peopleId, name)
 
-    Returns the value as an boolean
+    Returns the code,text,int,datetime,boolean value for the indicated person
 
     :param int peopleId:       The peopleId of the person
     :param str name:           The name of the Extra Value Field
-
 
