@@ -1,5 +1,3 @@
-*todo*
-
 Python Events
 =============
 
@@ -15,47 +13,40 @@ Global Variables
     
 .. py:data:: DayOfWeek
 
-    Readonly: Returns an integer number where:
-
-    === ===
-    Day returns
-    === ===
-    Sun 0
-    Mon 1
-    Tue 2
-    Wed 3
-    Thu 4
-    Fri 5
-    Sat 6
-    === ===
+    :return: the day of the week represented by a number (``0-6``) 0=Sunday
+    :rtype: int
 
 .. py:data:: DateTime
 
-    Readonly: The current day and time
+    :return: The current day and time (readonly)
+    :rtype: datetime
 
 .. py:data:: TestEmail
 
-    ``model.TestEmail = true``
-    causes all emails sent to during the script 
-    to go to the currently logged in user's email.
+    The following causes all emails sent to during the script
+    to go to the currently logged in user's email.::
+
+        model.TestEmail = True
 
 .. py:data:: Transactional
 
-    ``model.Transactional = true``
-    Prevents sending notices about emails having been sent
+    Prevents sending notices about emails having been sent::
+
+        model.Transactional = True
 
 Methods and Functions
 ----------------------
 
 .. py:function:: CallScript(scriptName)
 
-    Returns the output of the python script named ``scriptName`` as a string.
- 
+    :param str scriptName: The name of the Python Script Special Content
+    :return: the output of the script as if you had used a ``print`` statement
+
 .. py:function:: EmailContent(savedQueryName, queuedById, fromEmail, fromName, contentName)
                  EmailContent(savedQueryName, queuedById, fromEmail, fromName, subject, contentName)
                  Email(savedQueryName, queuedById, fromEmail, fromName, subject, body)
 
-    Sends an email a list of people from a saved query
+    Sends an email to a list of people from a saved query
     
     :param str savedQueryName: The name of the saved query that will specify the recipients.
     :param int queuedById:     The PeopleId of the coordinator's email address who is emailing on behalf of fromName
@@ -67,21 +58,26 @@ Methods and Functions
 
 .. py:function:: PeopleIds(savedQueryName)
 
-    Returns a list of PeopleIds from a query
-
+    :return: a list of PeopleIds from a query
     :param str savedQueryName: The name of the saved query that will specify the recipients.
+
+    Example::
+
+        pids = model.PeopleIds("savedquery")
+        for pid in pids:
+            p = model.GetPerson(pid)
+            print p.Name
 
 .. py:function:: OrganizationIds(programId, divisionId)
 
-    Returns a list of OrganizationIds in the respective program and division
-
+    :return: a list of OrganizationIds in the respective program and division
     :param int programId:      The integer id number of the Program (use 0 for any program)
     :param int divisionId:     The integer id of the Division (use 0 for any division)
 
 .. py:function:: OrgMembersQuery(programId, divisionId, organizationId, memberTypes)
 
-    This method will return an id that can be used in the following Email2 function
-
+    :return: an id that can be used in the following ``Email2`` function
+    :rtype: int
     :param int programId:      The integer id number of the Program (use 0 for any program)
     :param int divisionId:     The integer id of the Division (use 0 for any division)
     :param int organizationId: The integer id of the Organization (use 0 for any organization)
@@ -193,8 +189,8 @@ The following functions will return extra values for a person
                  ExtraValueDate(peopleId, name)
                  ExtraValueBit(peopleId, name)
 
-    Returns the code,text,int,datetime,boolean value for the indicated person
-
+    :return: the code, text, int, datetime, boolean value for the indicated person
+    :rtype: Code and Text returns string, others return native type (int, datetime, bool)
     :param int peopleId:       The peopleId of the person
     :param str name:           The name of the Extra Value Field
 
