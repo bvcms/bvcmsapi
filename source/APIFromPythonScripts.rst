@@ -182,10 +182,10 @@ Fetch Extra Values
 The following functions will return extra values for a person
 
 .. py:function:: ExtraValueCode(peopleId, name)
-.. py:function:: ExtraValueText(peopleId, name)
-.. py:function:: ExtraValueInt(peopleId, name)
-.. py:function:: ExtraValueDate(peopleId, name)
-.. py:function:: ExtraValueBit(peopleId, name)
+                 ExtraValueText(peopleId, name)
+                 ExtraValueInt(peopleId, name)
+                 ExtraValueDate(peopleId, name)
+                 ExtraValueBit(peopleId, name)
 
     Returns the code,text,int,datetime,boolean value for the indicated person
 
