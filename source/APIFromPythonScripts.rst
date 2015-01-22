@@ -194,3 +194,83 @@ The following functions will return extra values for a person
     :param int peopleId:       The peopleId of the person
     :param str name:           The name of the Extra Value Field
 
+
+Person Object
+-------------
+
+.. py:function:: GetPerson(peopleid)
+
+    :return: object having all the fields about a person
+    :rtype: see Person object definition below
+
+    .. py:class:: Address
+
+        ========= =====================
+        string    **AddressLineOne**
+        string    **AddressLineTwo**
+        string    **CityName**
+        string    **StateCode**
+        string    **ZipCode**
+        string    **CountryName**
+        DateTime? **AddressFromDate**
+        DateTime? **AddressToDate**
+        bool?     **BadAddressFlag**
+        ========= =====================
+
+    .. py:class:: Person
+
+        =========== =====================
+        int         **PeopleId**
+        int         **FamilyId**
+        string      **NickName**
+        string      **TitleCode**
+        string      **FirstName**
+        string      **MiddleName**
+        string      **LastName**
+        string      **Name**
+        string      **SuffixCode**
+        string      **AltName**
+        string      **MaidenName**
+        string      **HomePhone**
+        string      **CellPhone**
+        string      **WorkPhone**
+        string      **EmailAddress**
+        bool?       **SendEmailAddress1**
+        string      **EmailAddress2**
+        bool?       **SendEmailAddress2**
+        string      **SchoolOther**
+        int?        **Grade**
+        string      **EmployerOther**
+        string      **OccupationOther**
+        int?        **MaritalStatusId**
+        DateTime?   **WeddingDate**
+        string      **DOB**
+        bool?       **DoNotCallFlag**
+        bool?       **DoNotMailFlag**
+        bool?       **DoNotVisitFlag**
+        int         **PositionInFamilyId**
+        string      **SpouseName**
+        int?        **CampusId**
+        DateTime?   **DeceasedDate**
+        int?        **MemberStatusId**
+        DateTime?   **JoinDate**
+        int?        **DecisionTypeId**
+        DateTime?   **DecisionDate**
+        int?        **BaptismTypeId**
+        DateTime?   **BaptismDate**
+        DateTime?   **BaptismSchedDate**
+        string      **OtherPreviousChurch**
+        int?        **JoinCodeId**
+        int?        **DropCodeId**
+        DateTime?   **DropDate**
+        string      **OtherNewChurch**
+        string      **EmContact**
+        string      **EmPhone**
+        int?        **NewMemberClassStatusId**
+        DateTime?   **NewMemberClassDate**
+        Address     **FamilyAddress**
+        Address     **PersonalAddress**
+        int         **AddressTypeId**
+        string[]    **Usernames**
+        =========== =====================
+
