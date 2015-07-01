@@ -171,6 +171,13 @@ results set of the specified saved query
     :param int peopleId:       The peopleId of the individual person to update
     :param str date:           The date value
 
+.. py:function:: UpdateNewMemberClassDateIfNullForLastAttended(savedQueryName, orgId)
+                 UpdateNewMemberClassDateIfNullForLastAttended(peopleId, orgId)
+
+    :param str savedQueryName: The name of the saved query defining the list of people to update
+    :param int peopleId:       The peopleId of the individual person to update
+    :param str orgId:          The organization ID for the last attend meeting
+
 .. py:function:: AddMembersToOrg(savedQueryName, organizationId)
                  AddMemberToOrg(peopleId, organizationId)
 
