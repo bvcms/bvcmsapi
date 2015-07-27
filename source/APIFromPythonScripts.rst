@@ -23,6 +23,8 @@ Global Variables
 
 .. py:data:: TestEmail
 
+    :rtype: boolean
+
     The following causes all emails sent to during the script
     to go to the currently logged in user's email.::
 
@@ -33,6 +35,39 @@ Global Variables
     Prevents sending notices about emails having been sent::
 
         model.Transactional = True
+
+Used By PyScriptForm
+~~~~~~~~~~~~~~~~~~~~~
+
+These are all available as properties on the model
+
+.. py:data:: Form
+
+    :rtype: string
+
+    Set this to the HTML you wish to display as a form on your page.
+    It is loaded into your page by the /PyScriptForm/*YourScript* GET method.
+
+.. py:data:: Script
+
+    :rtype: string
+
+    Set this to the Javascript you want to run on your page.
+    It is loaded into your page by the /PyScriptForm/*YourScript* GET method.
+
+.. py:data:: Header
+
+    :rtype: string
+
+    Set this to the title of your page
+
+.. py:data:: HttpMethod
+
+    :return: Either 'get' or 'post'
+    :rtype: string
+
+    This method let's you determine action based on whether it is the initial page load (get)
+    or the ajax postback from your Javascript (post)
 
 Methods and Functions
 ----------------------
@@ -185,6 +220,45 @@ results set of the specified saved query
     :param int peopleId:       The peopleId of the individual person to update
     :param int organizationId: The organizationId number to add the person too
 
+
+.. py:function:: InOrg(pid, OrgId)
+
+    Determines whether a person is a member of an organization.
+
+    :rtype: boolean
+    :param int pid:     PeopleId
+    :param int OrgId:   OrganizationId
+
+.. py:function:: AddSubGroup(pid, OrgId, group)
+
+    Adds a person to a sub-group in the organization.
+
+    :param int pid:     PeopleId
+    :param int OrgId:   OrganizationId
+    :param str group:   The name of the sub-group
+
+.. py:function:: RemoveSubGroup(pid, OrgId, group)
+
+    Removes a person from a sub-group in the organization.
+
+    :param int pid:     PeopleId
+    :param int OrgId:   OrganizationId
+    :param str group:   The name of the sub-group
+
+.. py:function:: FmtPhone(phone, prefix)
+
+    :param str phone:   The phone number of the sub-group
+    :param str prefix:  Goes in front of the formatted number.  e.g. (c) for cell phone
+
+.. py:function:: InSubGroup(pid, OrgId, group)
+
+    Determines whether a person is in a sub-group in organization
+
+    :rtype: boolean
+    :param int pid:     PeopleId
+    :param int OrgId:   OrganizationId
+    :param str group:   The name of the sub-group
+
 Fetch Extra Values
 -------------------------
 
@@ -280,4 +354,20 @@ Person Object
         int         **AddressTypeId**
         string[]    **Usernames**
         =========== =====================
+
+Organization Object
+--------------------
+
+.. py:function:: GetOrganization(OrgId)
+
+    :return:    object having all the fields about a person
+    :rtype:     Organization (see Organization object definition below)
+
+    .. py:class:: Organization
+
+    =========== =====================
+    int         **id**
+    string      **name**
+    string      **location**
+    string      **description**
 
