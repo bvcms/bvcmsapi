@@ -365,9 +365,10 @@ Organization Object
 
     .. py:class:: Organization
 
-    =========== =====================
-    int         **id**
-    string      **name**
-    string      **location**
-    string      **description**
+        =========== =====================
+        int         **id**
+        string      **name**
+        string      **location**
+        string      **description**
+        =========== =====================
 
