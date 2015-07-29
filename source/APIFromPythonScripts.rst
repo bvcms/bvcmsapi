@@ -78,7 +78,7 @@ Methods and Functions
     :return: the output of the script as if you had used a ``print`` statement
 
 .. py:function:: EmailContent(savedQueryName, queuedById, fromEmail, fromName, contentName)
-                 EmailContent(savedQueryName, queuedById, fromEmail, fromName, subject, contentName)
+                 EmailContent2(savedQueryName, queuedById, fromEmail, fromName, subject, contentName)
                  Email(savedQueryName, queuedById, fromEmail, fromName, subject, body)
 
     Sends an email to a list of people from a saved query
