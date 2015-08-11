@@ -1,4 +1,0 @@
-documentation
-=============
-
-BVCMS Documentation
