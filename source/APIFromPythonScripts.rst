@@ -303,6 +303,7 @@ Person Object
         =========== =====================
         int         **PeopleId**
         int         **FamilyId**
+        int         **GenderId**
         string      **NickName**
         string      **TitleCode**
         string      **FirstName**
@@ -329,6 +330,8 @@ Person Object
         bool?       **DoNotCallFlag**
         bool?       **DoNotMailFlag**
         bool?       **DoNotVisitFlag**
+        bool?       **DoNotPublishPhones**
+        bool?       **ReceiveSMS**
         int         **PositionInFamilyId**
         string      **SpouseName**
         int?        **CampusId**
@@ -347,6 +350,7 @@ Person Object
         string      **OtherNewChurch**
         string      **EmContact**
         string      **EmPhone**
+        string      **MedicalDescription**
         int?        **NewMemberClassStatusId**
         DateTime?   **NewMemberClassDate**
         Address     **FamilyAddress**
