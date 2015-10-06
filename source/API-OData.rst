@@ -16,7 +16,8 @@ OData API
     This tool comes on a Mac and can be downloaded for Windows.
 
     OData uses a `$` (dollar sign) in the URL for filter operations. 
-    In the following curl commands, we show the dollar sign as escaped with a `\` in front of it.
+    Curl does not properly encode the $ sign.
+    So, in the following curl commands, we show the dollar sign as escaped with a `\\` in front of it.
     The acutal URL that will be used does not have that backslash.
 
 .. note::
@@ -24,9 +25,9 @@ OData API
     The examples below explicitly set the authorization header, but you can also set it like so::
 
         curl --user "apionly:MyApiPasswordToRuleThemAll" \
-            https://trialdb.tpsdb.com/api/People?$top=5
+            https://trialdb.tpsdb.com/api/People?\$top=5
 
-People ("Donors")
+People
 -----------------
 
 Get the top 5 people records. ::
@@ -34,7 +35,12 @@ Get the top 5 people records. ::
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
         https://trialdb.tpsdb.com/api/People?\$top=5
 
-Contributions ("Donor Info")
+Get the people records that have been modified since ``2015-09-01``::
+    
+    curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
+        https://trialdb.tpsdb.com/api/People?\$filter=ModifiedDate+ge+2015-09-01
+
+Contributions
 ----------------------------
 
 Get the top 5 contribution records. ::
