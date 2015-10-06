@@ -2,13 +2,19 @@ OData API
 =========
 
 * The APIs are all readonly and follow the `OData standard <http://www.odata.org/>`_. See that link for more details.
-* All OData calls also include links to return metadata about the return if that is needed. An example can be found by issuing an authenticated ``GET`` to ``https://trialdb.tpsdb.com/api/$metadata#People``.
-* We return a max of 1000 records per request. If more than that match, then the result will include the link to the next page (via the ``$skip`` parameter).
-* Authentication to the OData API requires a user with both the ``Developer`` and ``APIOnly`` roles (``APIOnly`` might not exist and will need to be created).
+* All OData calls also include links to return metadata about the return if that is needed. 
+  An example can be found by issuing an authenticated 
+  ``GET`` to ``https://trialdb.tpsdb.com/api/$metadata#People``.
+* We return a max of 1000 records per request. 
+  If more than that match, then the result will include the link to the next page (via the ``$skip`` parameter).
+* Authentication to the OData API requires a user with both the ``Developer`` and ``APIOnly`` roles 
+  (``APIOnly`` might not exist and will need to be created).
 
-**NOTE:** The examples below explicitly set the authorization header, but you can also set it like so::
+    .. note::
 
-    curl --user "apionly:MyApiPasswordToRuleThemAll" "https://trialdb.tpsdb.com/api/People?$top=5"
+        The examples below explicitly set the authorization header, but you can also set it like so::
+
+        `curl --user "apionly:MyApiPasswordToRuleThemAll" "https://trialdb.tpsdb.com/api/People?$top=5"`
 
 People ("Donors")
 -----------------
