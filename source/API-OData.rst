@@ -25,7 +25,7 @@ OData API
     The examples below explicitly set the authorization header, but you can also set it like so::
 
         curl --user "apionly:MyApiPasswordToRuleThemAll" \
-            https://trialdb.tpsdb.com/api/People?\$top=5
+            "https://trialdb.tpsdb.com/api/People?\$top=5"
 
 People
 -----------------
@@ -33,12 +33,12 @@ People
 Get the top 5 people records. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/People?\$top=5
+        "https://trialdb.tpsdb.com/api/People?\$top=5"
 
 Get the people records that have been modified since ``2015-09-01``::
     
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/People?\$filter=ModifiedDate+ge+2015-09-01
+        "https://trialdb.tpsdb.com/api/People?\$filter=ModifiedDate+ge+2015-09-01"
 
 Contributions
 ----------------------------
@@ -46,17 +46,17 @@ Contributions
 Get the top 5 contribution records. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/Contributions?\$top=5
+        "https://trialdb.tpsdb.com/api/Contributions?\$top=5"
 
 Get all contributions since ``2014-12-30``. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/Contributions?\$filter=ContributionDate+ge+2014-12-30
+        "https://trialdb.tpsdb.com/api/Contributions?\$filter=ContributionDate+ge+2014-12-30"
 
 Same as above, but with greater time granularity. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/Contributions?\$filter=ContributionDate+ge+2014-12-30T23:59:59.99Z
+        "https://trialdb.tpsdb.com/api/Contributions?\$filter=ContributionDate+ge+2014-12-30T23:59:59.99Z"
 
 Funds
 -----
@@ -64,7 +64,7 @@ Funds
 Get contribution fund details. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" 
-        https://trialdb.tpsdb.com/api/Funds
+        "https://trialdb.tpsdb.com/api/Funds"
 
 Lookups
 -------
@@ -74,27 +74,27 @@ Lookups are good to find more details about records (i.e. such as campuses and/o
 Get all marital status lookups. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/lookup/MaritalStatuses
+        "https://trialdb.tpsdb.com/api/lookup/MaritalStatuses"
 
 Get all campus lookups. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/lookup/Campuses
+        "https://trialdb.tpsdb.com/api/lookup/Campuses"
 
 Get all family position lookups. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/lookup/FamilyPositions
+        "https://trialdb.tpsdb.com/api/lookup/FamilyPositions"
 
 Get all contribution type lookups. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/lookup/ContributionTypes
+        "https://trialdb.tpsdb.com/api/lookup/ContributionTypes"
 
 Get all gender lookups. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/lookup/Genders
+        "https://trialdb.tpsdb.com/api/lookup/Genders"
 
 Organizations
 -------------
@@ -102,10 +102,10 @@ Organizations
 Get the organization member under org "2181006" with a people ID of "1". ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/OrganizationMembers?\$filter=OrganizationId+eq+2181006+and+PeopleId+eq+1
+        "https://trialdb.tpsdb.com/api/OrganizationMembers?\$filter=OrganizationId+eq+2181006+and+PeopleId+eq+1"
 
 Get all organizations. ::
 
     curl -H "Authorization: Basic YXBpb25seTpNeUFwaVBhc3N3b3JkVG9SdWxlVGhlbUFsbA==" \
-        https://trialdb.tpsdb.com/api/Organizations
+        "https://trialdb.tpsdb.com/api/Organizations"
 
