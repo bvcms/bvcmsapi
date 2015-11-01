@@ -1,7 +1,7 @@
 FPU Packet Pickup Form
 ======================
 
-This is the form used for the FPUPacketPickup sample project. 
+Below is the form used for the FPUPacketPickup sample project. 
 This was built with `bootsnipp form builder <http://bootsnipp.com/forms>`_.
 
 Note the highlighted lines where changes were made to the bootsnipp generated html.
@@ -14,6 +14,9 @@ Handlebars is the library we use to replace values for HTML content.
 The `model.Data` is an object to which these values are assigned.
 Any form elements that are posted using a submit button on the page 
 will be available in the `model.Data` object in addition to anything else you assign to that object.
+
+* `model.Data.pyscript` is set internally to the name of the Python Script file.
+* `model.Data.wandtarget` is set when the form is posted by the user.
 
 .. literalinclude:: FPUPacketForm.html
   :language: html
