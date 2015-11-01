@@ -12,4 +12,5 @@ API
    API-OData
    API-iPhone
    CheckInAPI
+   PythonScripts/index
 
