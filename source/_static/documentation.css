@@ -239,5 +239,11 @@ p.caption {
 	color: white;
 	padding:5px;
 }
+div.highlight pre {
+    overflow: auto;
+    word-break: keep-all;
+    word-wrap: initial;
+    white-space: pre;
+}
 
 
