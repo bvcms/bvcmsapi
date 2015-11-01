@@ -244,6 +244,7 @@ div.highlight pre {
     word-break: keep-all;
     word-wrap: initial;
     white-space: pre;
+    font-size: 12px;
 }
 
 
