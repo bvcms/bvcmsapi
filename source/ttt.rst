@@ -5,6 +5,12 @@ By `Steve Smith`_
 
 Bootstrap is currently the most popular web framework for developing responsive web applications. It offers a number of features and benefits that can improve your users' experience with your web site, whether you're a novice at front-end design and development or an expert. Bootstrap is deployed as a set of CSS and JavaScript files, and is designed to help your website or application scale efficiently from phones to tablets to desktops.
 
+.. literalinclude:: FPUPacketForm.html
+  :language: html
+  :linenos:
+  :emphasize-lines: 9,14,54,64
+
+This is a snippit:
 
 .. code-block:: html
   
