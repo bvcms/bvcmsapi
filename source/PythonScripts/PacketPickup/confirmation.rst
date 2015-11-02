@@ -1,6 +1,8 @@
 FPU Packet Pickup Confirmation
 ===============================
 
+Return to :doc:`index`.
+
 Below is the HTML used as a confirmation email for a registrant 
 of a Financial Peace University class. 
 The email indicates that it is important to bring the confirmation 
@@ -12,9 +14,12 @@ where 33 is the orgid and 444 is the peopleid.
 That format is used by the Python FPUPacketProcess.py script 
 to take action on this person in this class.
 
-.. literalinclude:: FPUPacketConfirmation.html
+.. note::
+        This file should be part of your `Registration > Messages > Confirmation`
+        in your registration Organizations.
+
+.. literalinclude:: Files/FPUPacketConfirmation.html
   :language: html
   :linenos:
   :emphasize-lines: 10
 
-return to :doc:`index`

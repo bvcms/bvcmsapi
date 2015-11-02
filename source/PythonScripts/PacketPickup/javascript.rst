@@ -6,7 +6,11 @@ Return to :doc:`index`.
 Below is the javascript used for the FPUPacketPickup sample project
 with some high level explanation following:
 
-.. literalinclude:: FPUPacket.js
+.. note::
+        This file should be located under 
+        `Admin > Special Content > Text` tab, and be named `FPUPacket.js`.
+
+.. literalinclude:: Files/FPUPacket.js
   :language: javascript
   :linenos:
 

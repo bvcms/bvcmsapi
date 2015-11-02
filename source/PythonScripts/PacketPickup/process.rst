@@ -7,7 +7,13 @@ When someone scans the barcode or clicks the action button,
 the following Pytyon script is run to process the results.
 An explanation follows the script.
 
-.. literalinclude:: FPUPacketProcess.py
+.. note::
+        This file should be located under 
+        `Admin > Special Content > Text` tab, and be named `FPUPacketProcess.py`.
+        The Text tab is used to prevent anyone from trying to run this file directly
+        as it must be run as a part of the main entry point.
+
+.. literalinclude:: Files/FPUPacketProcess.py
   :language: python
   :linenos:
 

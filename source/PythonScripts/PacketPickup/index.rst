@@ -1,6 +1,17 @@
 Financial Peace University Packet Pickup Project
 ================================================
 
+Here are the various components of this project:
+
+* :doc:`entrypoint`
+* :doc:`form`
+* :doc:`javascript`
+* :doc:`process`
+* :doc:`confirmation`
+
+Overview
+^^^^^^^^
+
 This is a project we did for our own Church, Bellevue Baptist Church.
 We were hosting about 80 classes spreadout across many times and every day of the week, 
 with different start dates.
@@ -32,9 +43,3 @@ Then we would scan their barcode when they picked up their packet.
 We are documenting how this project worked here because of the way we integrated 
 it into Touchpoint through the use of Python Scripts while making it appear as an integral part of TouchPoint.
 
-Here are the various components:
-
-* :doc:`form`
-* :doc:`javascript`
-* :doc:`process`
-* :doc:`confirmation`
