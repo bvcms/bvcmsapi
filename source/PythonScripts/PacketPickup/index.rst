@@ -17,6 +17,8 @@ have similar needs and be interested in using it.
 They may be intrigued to see how TouchPoint can be extended
 through the use of Python Scripts while making it appear as an integral part of TouchPoint.
 
+This is the page you use to record a packet is picked up.
+
 .. figure:: http://i.bvcms.com/2015-11-03_10-52-13.png
     :target: #
 
