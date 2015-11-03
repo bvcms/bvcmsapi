@@ -3,8 +3,8 @@ FPU Packet Pickup Process
 
 Return to :doc:`index`.
 
-When someone scans the barcode or clicks the action button,
-the following Pytyon script is run to process the results.
+When someone scans the barcode or clicks the `action` button,
+the following Python script is run to process the results.
 An explanation follows the script.
 
 .. note::
@@ -18,18 +18,19 @@ An explanation follows the script.
   :linenos:
 
 Explanation of code
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
-The entire script consists of the defination of a function called Process() 
+The entire script consists of the definition of a function called ``Process()``
 followed by a call to that function. 
-The reason a function is defined, is to make it easy to return from the script at various points in the process
-which also keeps from having to nest the code in more if statements.
+The reason a function is defined, is to make it easy to return from the script at various points in the process.
+This also keeps from having to nest the code in more if statements.
 
 Line 2
-        This line checks to see if there is a barcode that has been entered or scanned and returns, doing nothing if not.
+        This line checks to see if there is a barcode that has been entered or scanned and returns without
+        doing anything if there is no barcode.
 
 Lines 5-7
-        Decomposes the barcode into the two consituant parts, 
+        Decomposes the barcode into the two constituant parts,
         orgid and peopleid.
 
 Lines 9-14
@@ -61,9 +62,9 @@ Lines 57-59
         then the person is removed from the "packet-pickedup" sub-group.
 
 Lines 60-67
-        The default for the this radio button group ("Picked up")
+        The default for this radio button group ("Picked up")
         is to mark the person has having picked up their packet.
-        These if, elif, else statements 
+        The `if`, `elif`, and `else` statements
         will indicate whether the Packet has already been picked up,
         or whether the Packet has not been successfully marked as picked up.
 

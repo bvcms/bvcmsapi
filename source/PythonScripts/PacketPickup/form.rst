@@ -1,3 +1,4 @@
+
 FPU Packet Pickup Form
 ======================
 
@@ -5,7 +6,7 @@ Return to :doc:`index`.
 
 Below is the form used for the FPUPacketPickup sample project. 
 This was built with `bootsnipp form builder <http://bootsnipp.com/forms>`_.
-An explanation of important thing to pay attention to follow the form:
+Following the form is an explanation of important items to note.
 
 .. note::
         This file should be located under 
@@ -40,14 +41,14 @@ Lines 54 and 55
         When using bootsnipp,
         make sure the id for these two buttons 
         are correct and correspond to the javascript.
-        The id's are `clear` and `action`.
+        The ids are `clear` and `action`.
         The javascript uses these.
 
 Line 63
         This line must be added to the code you get from bootsnipp.
         It is a hidden form element to contain the name of the python script.
-        You see `{{pyscript}}` which will be used to 
-        replace with the name of the Python script file.
+        You see `{{pyscript}}` which will be replaced with
+        the name of the Python script file.
         `model.Data.pyscript` is set internally to the name of the Python Script file.
         Any time you use a form like this in a project that posts its results, 
         this hidden element is required.

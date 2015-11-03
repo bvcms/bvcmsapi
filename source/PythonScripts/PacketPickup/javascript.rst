@@ -4,7 +4,7 @@ FPU Packet Pickup Javascript
 Return to :doc:`index`.
 
 Below is the javascript used for the FPUPacketPickup sample project
-with some high level explanation following:
+with some high level explanation following.
 
 .. note::
         This file should be located under 
@@ -15,11 +15,11 @@ with some high level explanation following:
   :linenos:
 
 Lines 6 and 8
-        Pressing Enter or clicking Action will start the action() to act on the barcode.
+        Pressing "Enter" or clicking the "Action" button will start the ``action()``, processing the barcode.
 
 Lines 15-19
         If there is a barcode already there, 
-        then erase it first so that the form is ready to scan the next barcode.
+        erase it first so that the form is ready to scan the next barcode.
 
 Lines 20-24
         Send the form inputs via POST method to the script on the server.
