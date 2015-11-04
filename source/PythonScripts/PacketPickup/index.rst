@@ -30,7 +30,7 @@ We were hosting about 80 classes, meeting every day of the week with multiple sc
 and three different start dates.
 The idea was that we would get everybody at our church signed up for these classes, 
 and invite many from outside the church as well.
-This means that we registered more than 1,000 people using the TouchPoint system.
+This means that we registered more than 3,000 people using the TouchPoint system.
 
 Part of the signup process involved allowing 
 a registrant to choose to purchase a packet (one per couple),
@@ -38,7 +38,7 @@ or indicate that they already had a packet because they had already attended FPU
 The packets could be picked up starting a few days before the first class 
 and would continue for several weeks during the various start dates for individual classes.
 
-Because the packets are expensive ($80) we needed a good accounting of when a person picked up the packet.
+Because the packets are relatively expensive, we needed a good accounting of when a person picked up the packet.
 Further complicating matters is the fact that the packet could be picked up by either the husband or the wife.
 Because couples would share the packet, 
 both husband and wife would need to be marked as having paid and picked-up 
