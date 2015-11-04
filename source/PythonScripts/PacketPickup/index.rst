@@ -24,6 +24,12 @@ This is the page you use to record a packet is picked up.
 
     Packet Pickup Page
 
+Below is a link to a video we produced internally for our volunteers
+to show them how to use the Packet Pickup web page.
+It is not quite what we normally put out there for the public;
+however, it does demonstrate how the Packet Pickup works.
+
+Click `here to view video <http://i.bvcms.com/2015-08-26_12-34-45.mp4>`_
 
 We implemented this project here at Bellevue Baptist Church.
 We were hosting about 80 classes, meeting every day of the week with multiple schedules,
