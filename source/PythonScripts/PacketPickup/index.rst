@@ -17,12 +17,18 @@ have similar needs and be interested in using it.
 They may be intrigued to see how TouchPoint can be extended
 through the use of Python Scripts while making it appear as an integral part of TouchPoint.
 
-This is the page you use to record a packet is picked up.
+This is the page you use to record a packet has been picked up.
 
 .. figure:: http://i.bvcms.com/2015-11-03_10-52-13.png
     :target: #
 
     Packet Pickup Page
+
+This is what the email confirmation will look like
+with the {orgbarcode} in it.
+
+.. figure:: http://i.bvcms.com/2015-11-07_12-21-28.png
+    :target: #
 
 Below is a link to a video we produced internally for our volunteers
 to show them how to use the Packet Pickup web page.
