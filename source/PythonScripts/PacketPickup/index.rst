@@ -30,12 +30,13 @@ with the {orgbarcode} in it.
 .. figure:: http://i.bvcms.com/2015-11-07_12-21-28.png
     :target: #
 
-Below is a link to a video we produced internally for our volunteers
-to show them how to use the Packet Pickup web page.
-It is not quite what we normally put out there for the public;
-however, it does demonstrate how the Packet Pickup works.
+Below is a video in which we demonstrate
+how to use the Packet Pickup web page.
 
-Click `here to view video <http://i.bvcms.com/2015-08-26_12-34-45.mp4>`_
+
+.. raw:: html
+
+    `<iframe width="560" height="315" src="https://www.youtube.com/embed/U_QsQukrjWM" frameborder="0" allowfullscreen></iframe>`_
 
 We implemented this project here at Bellevue Baptist Church.
 We were hosting about 80 classes, meeting every day of the week with multiple schedules,
