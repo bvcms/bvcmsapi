@@ -5,7 +5,7 @@ Using the script below,
 you can create a Sql script
 that, when run,
 will display a report of everyone who has
-registered online and use an email address
+registered online and used an email address
 that is different from the one on their personal record.
 
 Information Displayed
@@ -29,7 +29,7 @@ Create Sql Script
 
 Step 1
     Go to `Administration > Setup > Special Content`
-    and select the `Sal Scripts` tab.
+    and select the `Sql Scripts` tab.
 
 Step 2
     Click the green `+New Sql Script File` button.
@@ -48,7 +48,7 @@ for future use.
 If you prefer an Excel version,
 check `Excel Output?` and then `Run Script`.
 
-    :
+.. code-block:: sql
 
     SELECT
 	p.Name2,
