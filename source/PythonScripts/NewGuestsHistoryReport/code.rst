@@ -3,6 +3,8 @@ Explanation of the code in the script
 For the New Guest History Report
 ------------------------------------
 
+.. seealso:: :doc:`script`
+
 The following is the SearchBuilder code template
 that is used to build the counts for each row and column.
 This code has three placeholders (the empty braces ``{}`` ).
@@ -74,7 +76,7 @@ Each Row has a name and a list of columns.
 The following code creates and initializes the header row 
 and the footer row for the results.
 An instance of a Row is constructed with a statement like those on lines 48 and 49.
-Lines 52-54 initialie the ``cols`` list in the Row object. 
+Lines 52-54 initialize the ``cols`` list in the Row object. 
 There are as many columns as there are dates 
 so we loop through the list of dates to make the assignments.
 
