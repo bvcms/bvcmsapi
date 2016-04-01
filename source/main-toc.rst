@@ -1,4 +1,4 @@
-.. toctree::
-    :glob:
+This documentation has been moved
+====================================
 
-    */index
+http://docs.touchpointsoftware.com/Python/index.html
