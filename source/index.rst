@@ -1,17 +1,4 @@
-*todo*
+This documentation has been moved
+====================================
 
-
-API
-===
-
-.. toctree::
-
-   APIFromPythonScripts
-   APIQueryFunctions
-   API-OneTimeLink
-   API-OData
-   API-iPhone
-   CheckInAPI
-   PythonScripts/index
-   SqlScripts/index
-
+http://docs.touchpointsoftware.com/Python/index.htm
